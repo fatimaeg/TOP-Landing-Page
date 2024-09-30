@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #1f2937;
+    margin: auto;
+    padding: 20px 230px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.h-logo{
+    font-size: 24px;
+    font-weight:  700;
+    color: #f9faf8;
+    margin-right: auto;
+}
+.h-link{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.hero{
+    height: 465px;
+    padding: 100px 200px;
+    background-color: #1f2937;
+    display: flex;
+    gap:40px;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    color:#f9faf8;
+    font-weight: 900;
+}
+.hero-sec-text{
+    font-size: 18px;
+    color:#e5e7eb;
+    
+}
+.cta, .cta-btn{
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    width: 140px;
+    padding:7px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border-style: solid;    
+}
+.info{
+    padding: 20px 230px;
+    padding-bottom: 50px;
+    height: 500px;
+}
+.info-header-text{
+    margin :25px auto;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+
+}
+.info-imgs{
+    margin: 45px auto;
+    display: flex;
+    gap:20px;
+}
+.info-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.info-img div{
+    text-align: center;
+}
+.quote{
+    background-color: #e5e7eb;
+    margin: auto;
+    padding: 150px 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 420px;
+}
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#1f2937;
+}
+.quote-auth{
+    margin: 10px;
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: auto;
+}
+.call-to-action{
+    background-color: white;
+    height: 350px;
+    margin: auto;
+    padding: 130px 230px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action-content{
+    height: 200px;
+    width: 1000px;
+    background-color: #3882f6 ;
+    padding: 50px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.cta-header{
+    font-size: 25px;
+    font-weight: 700;
+    color:white;
+}
+.cta-btn{
+    border-color: white;   
+     
+}
+.cta-text{
+    color:rgb(199, 197, 197);
+    font-size: 18px;
+}
+.footer{
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-text{
+    color:rgb(231, 229, 229);
+    font-size: 18px;
+}
